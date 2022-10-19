@@ -16,12 +16,24 @@ nav ul {
   padding-top: 0.5rem;
   padding-bottom: 1.5rem;
   padding-right: 2rem;
+  margin-bottom: 0rem;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   list-style-type: none;
 }
 
+main {
+  background-color: #bcb58b;
+  margin-top: 0rem;
+}
+
+h2 {
+  margin: 0rem;
+  padding: 1rem;
+  text-align: center;
+  color: #000907;
+}
 .color1 {
   color: #000907;
 }
