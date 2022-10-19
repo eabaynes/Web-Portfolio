@@ -26,8 +26,9 @@ nav ul {
 main {
   background-color: #bcb58b;
   margin-top: 0rem;
+  padding: 0.5rem;
 }
-
+/* The About me section of the page should have an avatar photo to the left of the text box. Tex bos should have a shadow. */
 h2 {
   margin: 0rem;
   padding: 1rem;
@@ -35,9 +36,26 @@ h2 {
   color: #000907;
 }
 
+.about-me {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
 .elliot-self-img {
   width: 50%;
   border-radius: 50%;
+  margin: 0rem;
+  border: 1px solid #1b3a46;
+}
+.about-me p {
+  width: 40%;
+  margin: 0rem;
+  padding: 0.5rem;
+  background-color: #d8d8ba;
+  color: #1b3a46;
+  border: 1px solid #1b3a46;
+  box-shadow: 3px 3px;
 }
 .color1 {
   color: #000907;
