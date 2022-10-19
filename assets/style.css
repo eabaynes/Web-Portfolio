@@ -1,0 +1,36 @@
+header {
+  background-color: #1b3a46;
+}
+
+h1 {
+  margin: 0rem;
+  padding-top: 1.5rem;
+  text-align: center;
+}
+
+nav ul {
+  color: #d8d8ba;
+  padding-top: 0.5rem;
+  padding-bottom: 1.5rem;
+  padding-right: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style-type: none;
+}
+
+.color1 {
+  color: #000907;
+}
+.color2 {
+  color: #1b3a46;
+}
+.color3 {
+  color: #ad9575;
+}
+.color4 {
+  color: #bcb58b;
+}
+.color5 {
+  color: #d8d8ba;
+}
