@@ -26,6 +26,11 @@ nav ul {
   list-style-type: none;
 }
 
+a {
+  text-decoration: none;
+  color: #d8d8ba;
+}
+
 /* background */
 main {
   background-color: #bcb58b;
