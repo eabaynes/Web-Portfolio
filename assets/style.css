@@ -7,7 +7,7 @@ footer {
 
 /* main title */
 h1 {
-  margin: 0rem;
+  margin: 0;
   padding-top: 1.5rem;
   text-align: center;
   color: #000907;
@@ -19,7 +19,7 @@ nav ul {
   padding-top: 0.5rem;
   padding-bottom: 1.5rem;
   padding-right: 2rem;
-  margin-bottom: 0rem;
+  margin-bottom: 0;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -34,7 +34,7 @@ a {
 /* background */
 main {
   background-color: #bcb58b;
-  margin-top: 0rem;
+  margin-top: 0;
   padding: 0.5rem;
 }
 
@@ -42,7 +42,7 @@ main {
 
 /* Section headers */
 h2 {
-  margin: 0rem;
+  margin: 0;
   padding: 1rem;
   text-align: center;
   color: #000907;
@@ -59,14 +59,14 @@ h2 {
 .elliot-self-img {
   width: 50%;
   border-radius: 50%;
-  margin: 0rem;
+  margin: 0;
   border: 1px solid #1b3a46;
 }
 
 /* text element in the about me section */
 .about-me p {
   width: 40%;
-  margin: 0rem;
+  margin: 0;
   padding: 0.5rem;
   background-color: #d8d8ba;
   color: #1b3a46;
@@ -94,7 +94,7 @@ h2 {
 
 /* title text for primary project */
 .main-project-title {
-  margin: 0rem;
+  margin: 0;
   position: relative;
   bottom: 4rem;
   left: 5rem;
@@ -104,7 +104,7 @@ h2 {
 
 /* subtext for primary project */
 .main-project-skills {
-  margin: 0rem;
+  margin: 0;
   position: relative;
   bottom: 4rem;
   left: 5rem;
@@ -141,12 +141,12 @@ h2 {
   bottom: 3.5rem;
   left: 6rem;
   background-color: #bcb58b;
-  margin: 0rem;
+  margin: 0;
 }
 
 /* rules for other skills shown */
 .other-shown-skills {
-  margin: 0rem;
+  margin: 0;
   position: relative;
   left: 6rem;
   bottom: 3.5rem;
@@ -155,7 +155,7 @@ h2 {
 
 /* contact elements */
 .contact-info {
-  margin: 0rem;
+  margin: 0;
   padding: 1em;
   font-size: 16px;
   display: flex;
@@ -165,18 +165,39 @@ h2 {
   color: #d8d8ba;
 }
 
+/* media query for larger mobile screens */
+@media screen and (min-width: 450px) {
+  /* correcting margins to re-center */
+  main {
+    padding-right: 1.25rem;
+  }
+
+  /* correcting about me to re-center */
+  .about-me {
+    padding: 1rem;
+  }
+
+  .work {
+    display: flex;
+  }
+}
+
 .color1 {
   color: #000907;
 }
+
 .color2 {
   color: #1b3a46;
 }
+
 .color3 {
   color: #ad9575;
 }
+
 .color4 {
   color: #bcb58b;
 }
+
 .color5 {
   color: #d8d8ba;
 }
