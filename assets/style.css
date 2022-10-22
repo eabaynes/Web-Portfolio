@@ -176,9 +176,25 @@ h2 {
 
 /* media query for larger mobile screens */
 @media screen and (min-width: 750px) {
-  /* adjust width for about-me on larger screens */
+  /* scale up title */
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  /* scale up nav text */
+  nav {
+    font-size: 1.5rem;
+  }
+
+  /* scale up section header text */
+  h2 {
+    font-size: 2rem;
+  }
+
+  /* adjust about-me on larger screens */
   .about-me p {
     width: 30%;
+    font-size: 1.5rem;
   }
 
   .work {
