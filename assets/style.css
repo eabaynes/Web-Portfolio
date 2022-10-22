@@ -142,7 +142,6 @@ h2 {
 
 /* titles of other projects */
 .other-project-titles {
-  font-size: 17px;
   color: #1b3a46;
   position: relative;
   bottom: 3.5rem;
@@ -174,11 +173,11 @@ h2 {
   color: #d8d8ba;
 }
 
-/* media query for larger mobile screens */
+/* media query for tablet screens */
 @media screen and (min-width: 750px) {
   /* scale up title */
   h1 {
-    font-size: 2.5rem;
+    font-size: 3rem;
   }
 
   /* scale up nav text */
@@ -188,27 +187,77 @@ h2 {
 
   /* scale up section header text */
   h2 {
-    font-size: 2rem;
+    font-size: 2.5rem;
   }
 
-  /* adjust about-me on larger screens */
+  /* thicker border on avatar image */
+  .elliot-self-img {
+    border: #1b3a46 3px solid;
+  }
+
+  /* adjust about-me text on larger screens */
   .about-me p {
     width: 30%;
     font-size: 1.5rem;
+    border: #1b3a46 3px solid;
+    box-shadow: #1b3a46 5px 5px;
   }
 
+  /* rescale work section */
   .work {
     display: flex;
     flex-direction: column;
     padding: 1rem;
   }
 
+  /* change scaling at 750px so the image isnt awkward */
+  .main-example-project {
+    padding: 3.5%;
+  }
+
+  /* adjusted image border */
   .main-example-img {
     border: #1b3a46 3px solid;
   }
 
+  /* adjust text overlay scaling */
+  .main-project-title {
+    font-size: 1.75rem;
+    bottom: 6rem;
+    left: 40%;
+    width: 60%;
+  }
+
+  /* adjust text overlay scaling */
+  .main-project-skills {
+    font-size: 1.5rem;
+    bottom: 6rem;
+    left: 40%;
+    width: 60%;
+  }
+
+  /* change other project from column to row at 750px */
   .other-projects {
     flex-direction: row;
+  }
+
+  /* scaled text for other projects */
+  .other-project-titles {
+    font-size: 0.8rem;
+    left: 25%;
+    width: 75%;
+  }
+
+  /* scaled text for other project skills */
+  .other-shown-skills {
+    font-size: 0.75rem;
+    left: 25%;
+    width: 75%;
+  }
+
+  footer li {
+    font-size: 1rem;
+    padding: 1rem;
   }
 }
 
