@@ -1,7 +1,16 @@
-# HTML-CSS Practice
+# Web Portfolio
 
-This includes webhint, stylelint, and prettier.
+## Objective
 
-VS Code settings are included to streamline the process. Stylelint extension and prettier are there too for real time feedback. Because of the settings, Prettier will auto-format whenever you move out of the file.
+Create a mock portfolio webpage where I can eventually add completed projects
 
-Run `npm install` to install the dependencies. Then, run `npm start` to start the server.
+## Project Rundown
+
+- Created core structure in HTML
+- Used **stand-in photos** for projects- nothing to add at the moment
+- Used mobile-first design process to implement styling
+- Links in CONTACT will eventually link to github and linkedin when applicable
+
+## Mock Up
+
+![screenshot](assets/images/mock-portfolio.jpg)
