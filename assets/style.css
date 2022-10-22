@@ -26,6 +26,7 @@ nav ul {
   list-style-type: none;
 }
 
+/* link styling */
 a {
   text-decoration: none;
   color: #d8d8ba;
@@ -35,7 +36,9 @@ a {
 main {
   background-color: #bcb58b;
   margin-top: 0;
-  padding: 0.5rem;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
 }
 
 /* The About me section of the page should have an avatar photo to the left of the text box. Tex bos should have a shadow. */
@@ -53,6 +56,7 @@ h2 {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  padding: 1rem;
 }
 
 /* avatar image */
@@ -97,7 +101,8 @@ h2 {
   margin: 0;
   position: relative;
   bottom: 4rem;
-  left: 5rem;
+  left: 30%;
+  width: 70%;
   background-color: #bcb58b;
   color: #1b3a46;
 }
@@ -107,7 +112,8 @@ h2 {
   margin: 0;
   position: relative;
   bottom: 4rem;
-  left: 5rem;
+  left: 30%;
+  width: 70%;
   background-color: #bcb58b;
 }
 
@@ -166,19 +172,24 @@ h2 {
 }
 
 /* media query for larger mobile screens */
-@media screen and (min-width: 450px) {
-  /* correcting margins to re-center */
-  main {
-    padding-right: 1.25rem;
-  }
-
-  /* correcting about me to re-center */
-  .about-me {
-    padding: 1rem;
+@media screen and (min-width: 750px) {
+  /* adjust width for about-me on larger screens */
+  .about-me p {
+    width: 30%;
   }
 
   .work {
     display: flex;
+    flex-direction: column;
+    padding: 1rem;
+  }
+
+  .main-example-img {
+    border: #1b3a46 3px solid;
+  }
+
+  .other-projects {
+    flex-direction: row;
   }
 }
 
