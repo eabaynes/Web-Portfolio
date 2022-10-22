@@ -352,6 +352,14 @@ h2 {
   }
 }
 
+/* added width corrections for work section on +HD screens */
+@media screen and (min-width: 1200px) {
+  .work {
+    padding-inline-start: 10%;
+    padding-inline-end: 10%;
+  }
+}
+
 .color1 {
   color: #000907;
 }
