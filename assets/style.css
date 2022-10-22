@@ -359,6 +359,11 @@ h2 {
     padding-inline-start: 10%;
     padding-inline-end: 10%;
   }
+
+  /* added vertical adjustment to keep other project column centered */
+  .other-projects {
+    padding-top: 3%;
+  }
 }
 
 .color1 {
