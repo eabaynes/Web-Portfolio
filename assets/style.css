@@ -261,6 +261,97 @@ h2 {
   }
 }
 
+/* media query for desktop screens */
+@media screen and (min-width: 1024px) {
+  /* reformat header for desktop */
+  .header {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 3rem;
+  }
+
+  /* adjust h1 text for desktop */
+  h1 {
+    font-size: 4rem;
+  }
+
+  /* rescale nav elements for desktop */
+  nav ul li {
+    padding: 0.5rem;
+    font-size: 1.76rem;
+  }
+
+  .elliot-self-img {
+    width: 30%;
+  }
+
+  /* change scaling and move other projects to right side of screen */
+  .work {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  /* rescale main project */
+  .main-example-project {
+    width: 75%;
+    padding: 1.5rem;
+    justify-content: center;
+  }
+
+  /* enlarge title text of main project and shift left */
+  .main-project-title {
+    font-size: 2.5rem;
+    left: 25%;
+    width: 75%;
+    bottom: 10rem;
+  }
+
+  /* scale skills text in main project */
+  .main-project-skills {
+    font-size: 2rem;
+    left: 25%;
+    width: 75%;
+    bottom: 10rem;
+  }
+
+  /* rescale other projects in column */
+  .other-projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 25%;
+    padding-top: 1rem;
+  }
+
+  /* slightly enlarge scale of other project img */
+  .other-example-img {
+    width: 85%;
+    border: #1b3a46 3px solid;
+  }
+
+  /* scale other project titles */
+  .other-project-titles {
+    font-size: 1rem;
+    bottom: 4rem;
+  }
+
+  /* scale skills shown on other projects */
+  .other-shown-skills {
+    font-size: 1rem;
+    bottom: 4rem;
+  }
+
+  footer h2 {
+    font-size: 3rem;
+  }
+  footer ul li {
+    font-size: 1.5rem;
+  }
+}
+
 .color1 {
   color: #000907;
 }
