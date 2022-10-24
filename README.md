@@ -14,3 +14,7 @@ Create a mock portfolio webpage where I can eventually add completed projects
 ## Mock Up
 
 ![screenshot](assets/images/mock-portfolio.jpg)
+
+## View Deployed Project Here
+
+https://eabaynes.github.io/Web-Portfolio/
